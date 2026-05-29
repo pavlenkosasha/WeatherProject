@@ -1,0 +1,16 @@
+<h1>Search History 📊</h1>
+
+<a href="/">Back</a>
+
+<ul>
+    {% for item in history %}
+        <li>
+            {{ item.city }} —
+            {{ item.temperature }}°C —
+            {{ item.description }} —
+            {{ item.search_date }}
+        </li>
+    {% empty %}
+        <li>No history yet</li>
+    {% endfor %}
+</ul>
