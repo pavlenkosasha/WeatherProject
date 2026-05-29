@@ -121,3 +121,4 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 # мой user and pasword : sasha / stas123stas123
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+#https://weatherproject-1-wxn8.onrender.com - ссілка на сервер
