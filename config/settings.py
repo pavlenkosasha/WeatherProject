@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&=7n4j@rr(9tw(yv^!3f+dta7e0^1d_j966m-wjmj0ja0p&g-7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,3 +120,4 @@ LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 # мой user and pasword : sasha / stas123stas123
+STATIC_ROOT = BASE_DIR / 'staticfiles'
